@@ -1,5 +1,5 @@
 [phases.setup]
-nixPkgs = ["chromium", "libnss3", "libatk-bridge2.0-0", "libdrm2", "libxkbcommon0", "libgbm1"]
+nixPkgs = ["chromium", "nss", "atk", "cups", "libdrm", "libxkbcommon", "mesa"]
 
 [phases.install]
 cmds = ["npm install -g pnpm", "pnpm install"]
